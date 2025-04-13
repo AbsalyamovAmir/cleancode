@@ -4,3 +4,4 @@
 
 rootProject.name = 'cleancode'
 include(':calculator')
+include 'pizza'
