@@ -21,15 +21,13 @@ public class DemoComponent implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        switch (notificationMode.toLowerCase()) {
-            case "sms":
-                notificationSender.setNotificationService(smsService);
-                break;
-            case "email":
-                notificationSender.setNotificationService(emailService);
-                break;
-        }
+        notificationSender.setNotificationType(notificationMode);
+        notificationSender.notifyUser("Hello!!!");
 
+        notificationSender.setNotificationType("email");
+        notificationSender.notifyUser("Hello!!!");
+
+        notificationSender.setNotificationType("sms");
         notificationSender.notifyUser("Hello!!!");
     }
 }
