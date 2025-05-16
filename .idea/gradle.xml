@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/calculator" />
             <option value="$PROJECT_DIR$/pizza" />
+            <option value="$PROJECT_DIR$/managerRefactor" />
           </set>
         </option>
       </GradleProjectSettings>
