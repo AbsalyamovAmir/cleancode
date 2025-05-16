@@ -4,5 +4,5 @@
 
 rootProject.name = 'cleancode'
 include(':calculator')
+include 'pizza'
 include 'managerRefactor'
-
