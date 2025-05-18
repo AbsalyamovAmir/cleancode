@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "pizza-spring"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pizzeria_db
+    username: postgres
+    password: 34123412
